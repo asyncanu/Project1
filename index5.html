@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Event Registration</h2>
+    <form>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+
+        <label for="emailID">Email</label>
+        <input type="email" id="emailID" name="emailID">
+        <br/>
+        <br/>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber">
+        <br/>
+        <br/>
+
+        <label for="occupationType">Occupation:</label>
+        <select name="occupationType" id="occupationType">
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+         </select>
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Topics of Interest</legend>
+
+            <label for="checkbox1">HTML </label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+
+            <label for="checkbox2">CSS </label>
+            <input type="checkbox" name="checkbox" id="checkbox2">
+
+            <label for="checkbox3">JavaScript </label>
+            <input type="checkbox" name="checkbox" id="checkbox3">
+            <br/>
+            <br/>
+            </fieldset>
+            <br/>
+            <br/>
+
+            <label for="textarea1">Comments:</label>
+            <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Register">
+    </form>
+    <br/>
+    <br/>
+    <br/>
+
+    <h2>Job Application</h2>
+    <form>
+
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+        <br/>
+        <br/>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br/>
+        <br/>
+
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="Phone" id="Phone">
+        <br/>
+        <br/>
+
+        <label for="fileUpload">Resume File:</label>
+        <input type="file" name="file" id="fileUpload">
+        <br/>
+        <br/>
+
+        <label for="counter">Experience (in years)</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Skills:</legend>
+
+            <label for="checkbox1">HTML </label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+<br/>
+            <label for="checkbox2">CSS </label>
+            <input type="checkbox" name="checkbox" id="checkbox2">
+<br/>
+            <label for="checkbox3">JavaScript </label>
+            <input type="checkbox" name="checkbox" id="checkbox3"> 
+        </fieldset>
+        <br/>
+
+         <label for="educationType">Higher Education:</label>
+        <select name="educationType" id="educationType">
+        <option value="high school">High School</option>
+        <option value="bachelor">Bachelor's Degree</option>
+        <option value="master">Master's Degree</option>
+        <option value="phd">PhD</option>
+         </select>
+        <br/>
+        <br/>
+
+              <fieldset>
+            <legend>Availability:</legend>
+
+            <label for="radio1">Full-time </label>
+            <input type="radio" name="radio" id="radio1">
+<br/>
+            <label for="radio2">Part-time </label>
+            <input type="radio" name="radio" id="radio2">
+<br/> 
+        </fieldset>
+        <br/>
+
+        <label for="textarea1">Additional Comments:</label>
+        <textarea name="textarea1" id="textarea" cols="25" rows="16"></textarea>
+        <br/>
+        <br/>
+
+        <input type="submit" value="Submit Aplication">
+    </form>
+    <br/>
+    <br/>
+    <br/>
+
+    <h2>Complex Form</h2>
+    <form>
+        <fieldset>
+      <legend>Personal Information</legend>  
+      
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <br/>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      <br/>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone">
+      <br/>
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob">
+      <br/>
+      <span>Gender:</span>
+      <input type="radio" id="radio1" name="radio1">
+      <label for="radio1">Male</label>
+      <input type="radio" id="radio2" name="radio2">
+      <label for="radio2">Female</label>
+      <br/>
+      
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="us">United States</option>
+      </select>
+        </fieldset>
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street">
+            <br/>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+            <br/>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+            <br/>
+
+            <label for="zipCode">Zip Code</label>
+            <input type="tel" id="zipCode" name="zipCode">
+            <br/>
+        </fieldset>
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <lable for="textarea">Comments</lable>
+            <textarea name="textarea" id="textarea" cols="30" rows="6"></textarea>
+            <br/>
+            <lable for="agree">I agree to the terms of service</lable>
+            <input type="checkbox" name="agree" id="agree">
+            <br/>
+        </fieldset>
+        <br/>
+
+        <label for="submit">Submit</label>
+        <input type="submit" name="submit" id="submit">
+
+    </form>
+
+
+
+</body>
+</html>
